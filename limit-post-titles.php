@@ -3,7 +3,7 @@
 Plugin Name:          Limit Post Titles
 Plugin URI:           http://stephenradford.me/restricting-post-titles-in-wordpress-with-a-character-limit
 Description:          Limit post titles using JS in the dashboard
-Version:              1.0.1
+Version:              1.0.2
 Author:               Cocoon Development Ltd
 Author URI:           http://wearecocoon.co.uk
 */

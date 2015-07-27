@@ -56,8 +56,10 @@
 		};
 	};
 
-	// push our script to the end of the callstack
-	var limiter = new Limiter();
-	window.setTimeout(limiter.init, 0);
+	// Call on page load
+	document.addEventListener("DOMContentLoaded",function(event){
+		var limiter = new Limiter();
+		limiter.init();
+	});
 
 })();
